@@ -19,13 +19,12 @@ function catalogTemplate(items){
 }
 
 function cardTemplate(item){
-    return html`  <div class="allGames">
+    return html`<div class="allGames">
         <div class="allGames-info">
             <img src="${item.imageUrl}">
             <h6>${item.category}</h6>
             <h2>${item.title}</h2>
             <a href="/catalog/${item._id}" class="details-button">Details</a>
         </div>
-
     </div>`
 }
